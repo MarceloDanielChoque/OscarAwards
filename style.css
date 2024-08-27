@@ -1,0 +1,216 @@
+
+
+
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.gold {
+  color: gold;
+}
+
+nav a:hover {
+  background-color: gold;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 2vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.fondoVsc {
+  background-color: #1E1E1E;
+}
+
+.fondoDorado {
+  background-color: gold;
+}
+.fondonegro {
+  background-color: black;
+}
+.fondoImagen {
+  background-image: url(imagenes/horizontal.png);
+  background-size: cover; /* Esto ajustará la imagen para cubrir todo el contenedor */
+  background-repeat: no-repeat;
+}
+
+/*___________________________Fuente*/
+.fuente2v {
+  font-size: 2vh;
+}
+
+.fuente3v {
+  font-size: 3vh;
+}
+
+.fuente4v {
+  font-size: 4vh;
+}
+
+.kode-mono-nuevo {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.colorfondodifumin {
+  background: #002125;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #013C52, #00A7B2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #013C52, #00A7B2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*_____________________________margenes */
+.margen1 {
+  margin: 2vh;
+}
+
+.margen2 {
+  margin: 4vh;
+}
+
+.margen5 {
+  margin: 10vh;
+}
+
+.margenUp {
+  margin-top: 6vh;
+}
+
+.margenDown {
+  margin-bottom: 4vh;
+}
+
+.margenIzq {
+  margin-left: 2vh;
+}
+
+.margenDcho {
+  margin-right: 2vh;
+}
+
+/*______________________PADDING*/
+.padding0 {
+  padding: 1vh;
+}
+
+.padding1 {
+  padding: 2vh;
+}
+
+.paddingUp {
+  padding-top: 3vh;
+}
+
+.paddingDown {
+  padding-bottom: 3vh;
+}
+.paddingIzq {
+  padding-left: 2vh;
+}
+.paddingDcho {
+  padding-right: 2vh;
+}
+
+.margenNegativo {
+  margin: -2vh;
+}
+/*_______________distribucion*/
+.displayInline {
+  display: inline;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centrarContenido {
+  display: flex;
+  text-align: center;
+}
+
+.doscolumnas {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.horizontalCentrado {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontalCentradoSin {
+  display: flex;
+  justify-content: center;
+}
+
+
+.displayBlock {
+  display: block;
+}
+
+.centradovertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
