@@ -2,3 +2,5 @@
 <br>
 
 ## Autor: Marcelo Daniel Choque Mamani
+Alumno: Marcelo Daniel Choque 
+marcelo daniel choque
